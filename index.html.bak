@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Let's Plex It — Connecting People</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f4a300;
+      color: black;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    p.subtitle {
+      margin: 5px 0 0;
+      font-size: 1.1em;
+      font-style: italic;
+    }
+
+    .pricing-box {
+      max-width: 600px;
+      margin: 40px auto;
+      border: 2px solid #f4a300;
+      padding: 20px;
+      background-color: #1e1e1e;
+      border-left: 6px solid #f4a300;
+    }
+
+    .pricing-box h2 {
+      color: #00ffff;
+      margin-top: 0;
+    }
+
+    .pricing-box ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .pricing-box li {
+      margin-bottom: 10px;
+    }
+
+    .button-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 40px 0;
+    }
+
+    .button-row a {
+      background-color: #00ffff;
+      color: #000;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button-row a:hover {
+      background-color: #00d5d5;
+    }
+
+    .form-section {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-left: 6px solid #f4a300;
+    }
+
+    .form-section h2 {
+      color: #f4a300;
+      margin-bottom: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 950px;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Let's Plex It — Connecting People</h1>
+    <p class="subtitle">Your Media. Your Way. Set Up by a Pro.</p>
+  </header>
+
+  <div class="pricing-box">
+    <h2>✨ Starter Setup – $100–150</h2>
+    <ul>
+      <li>Plex Media Server install (Windows/Linux/macOS/NAS)</li>
+      <li>Folder structure & library setup</li>
+      <li>Remote access enabled & tested</li>
+      <li>Security: Plex PIN, port forwarding, VPN guidance</li>
+    </ul>
+  </div>
+
+  <div class="pricing-box">
+    <h2>⚡ Premium Setup – $250–350</h2>
+    <ul>
+      <li>Everything in Starter Setup</li>
+      <li>Install Sonarr, Radarr, Jackett/Prowlarr, qBittorrent</li>
+      <li>Automation & sorting configured</li>
+      <li>API key integrations</li>
+    </ul>
+  </div>
+
+  <div class="pricing-box">
+    <h2>🧊 Annual Support – $20/year</h2>
+    <ul>
+      <li>Free 60-day support included with all installs</li>
+      <li>Metadata & automation fixes</li>
+      <li>Remote help for VPN, errors, access issues</li>
+      <li>Quarterly tune-up available</li>
+    </ul>
+  </div>
+
+  <div class="button-row">
+    <a href="mailto:letsplexit@gmail.com?subject=Plex%20Setup%20Request&body=Hi%20Frank,%0AI'm%20interested%20in%20your%20Plex%20services.%20Please%20let%20me%20know%20what%20you%20need%20from%20me%20to%20get%20started.">📅 Contact Me to Schedule</a>
+
+    <a href="https://www.paypal.me/letsplexit" target="_blank">💸 Pay via PayPal</a>
+
+    <a href="#client-intake">📝 Client Intake Form</a>
+  </div>
+
+  <div class="form-section" id="contact-info">
+    <h2>📇 Contact Information</h2>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_pfbC78z5rA-SVT8cptdIQ6w4mwymcws9NoExUeTcGa_8ig/viewform?embedded=true" allowfullscreen>
+      Loading…
+    </iframe>
+  </div>
+
+  <div class="form-section" id="client-intake">
+    <h2>📝 Client Intake Form</h2>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIp1lUcM_ek53n8p0taHhgWnpjdG1DgLXTx6b2tYcAMBP2Yw/viewform?embedded=true" allowfullscreen>
+      Loading…
+    </iframe>
+  </div>
+
+  <div class="form-section" id="contract-form">
+    <h2>📄 Contract Form</h2>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIp1lUcM_ek53n8p0taHhgWnpjdG1DgLXTx6b2tYcAMBP2Yw/viewform?embedded=true" allowfullscreen>
+      Loading…
+    </iframe>
+  </div>
+
+  <footer>
+    © 2025 Let’s Plex It — Powered by FJLM · Massey Systems
+  </footer>
+
+</body>
+</html>
