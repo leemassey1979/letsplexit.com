@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Let's Plex It — Connecting People</title>
   <style>
     body {
@@ -14,186 +14,119 @@
     }
 
     header {
-      background-color: #f4a300;
-      color: black;
+      background-color: #e5a00d;
       text-align: center;
-      padding: 20px;
+      padding: 1.5rem;
     }
 
-    h1 {
+    header h1 {
       margin: 0;
-      font-size: 2em;
+      font-size: 2.2rem;
     }
 
-    p.subtitle {
-      margin: 5px 0 0;
-      font-size: 1.1em;
-      font-style: italic;
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
     }
 
-    .pricing-box {
-      max-width: 600px;
-      margin: 40px auto;
-      border: 2px solid #f4a300;
-      padding: 20px;
-      background-color: #1e1e1e;
-      border-left: 6px solid #f4a300;
+    section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: #1e1e1e;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 165, 0, 0.2);
     }
 
-    .pricing-box h2 {
-      color: #00ffff;
-      margin-top: 0;
-    }
-
-    .pricing-box ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .pricing-box li {
-      margin-bottom: 10px;
-    }
-
-    .paypal-button-wrapper {
-      text-align: center;
-      margin: 40px auto;
-    }
-
-    .paypal-button-wrapper button {
-      background-color: #003087;
-      color: white;
-      border: none;
-      padding: 12px 20px;
-      font-size: 16px;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-
-    .button-row {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      margin: 40px 0;
-    }
-
-    .button-row a {
-      background-color: #00ffff;
-      color: #000;
-      padding: 12px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .button-row a:hover {
-      background-color: #00d5d5;
-    }
-
-    .form-section {
-      max-width: 900px;
-      margin: 50px auto;
-      background-color: #1a1a1a;
-      padding: 20px;
-      border-left: 6px solid #f4a300;
-    }
-
-    .form-section h2 {
-      color: #f4a300;
-      margin-bottom: 10px;
+    h2 {
+      color: #ffcc00;
+      margin-bottom: 1rem;
     }
 
     iframe {
       width: 100%;
-      height: 950px;
       border: none;
-      background-color: white;
+      height: 1000px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
     }
 
     footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
+      background-color: #000;
       color: #888;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
     }
 
-    hr {
-      border: none;
-      border-top: 1px solid #555;
-      margin: 50px auto;
-      width: 80%;
+    @media (max-width: 600px) {
+      iframe {
+        height: 1200px;
+      }
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Let's Plex It — Connecting People</h1>
-    <p class="subtitle">Your Media. Your Way. Set Up by a Pro.</p>
   </header>
 
-  <div class="pricing-box">
-    <h2>✨ Starter Setup – $100–150</h2>
-    <ul>
-      <li>Plex Media Server install (Windows/Linux/macOS/NAS)</li>
-      <li>Folder structure & library setup</li>
-      <li>Remote access enabled & tested</li>
-      <li>Security: Plex PIN, port forwarding, VPN guidance</li>
-    </ul>
-  </div>
+  <div class="container">
+    <section>
+      <h2>Starter Setup – $100–150</h2>
+      <ul>
+        <li>✅ Plex Media Server (Windows/Linux/macOS/NAS)</li>
+        <li>✅ Folder structure & library setup</li>
+        <li>✅ Remote access enabled & tested</li>
+        <li>✅ Plex PIN, port forwarding, VPN guidance</li>
+      </ul>
+    </section>
 
-  <div class="pricing-box">
-    <h2>⚡ Premium Setup – $250–350</h2>
-    <ul>
-      <li>Everything in Starter Setup</li>
-      <li>Install Sonarr, Radarr, Jackett/Prowlarr, qBittorrent</li>
-      <li>Automation & sorting configured</li>
-      <li>API key integrations</li>
-    </ul>
-  </div>
+    <section>
+      <h2>Premium Setup – $250–350</h2>
+      <ul>
+        <li>✅ Everything in Starter Setup</li>
+        <li>✅ Sonarr, Radarr, Jackett or Prowlarr</li>
+        <li>✅ qBittorrent automation & sorting</li>
+        <li>✅ Full API integration</li>
+      </ul>
+    </section>
 
-  <div class="pricing-box">
-    <h2>🧊 Annual Support – $20/year</h2>
-    <ul>
-      <li>Free 60-day support included with all installs</li>
-      <li>Metadata & automation fixes</li>
-      <li>Remote help for VPN, errors, access issues</li>
-      <li>Quarterly tune-up available</li>
-    </ul>
-  </div>
+    <section>
+      <h2>Ongoing Support – $20/year</h2>
+      <ul>
+        <li>🛠️ Free 60-day support included</li>
+        <li>🔧 Metadata & automation fixes</li>
+        <li>📞 Remote help for errors & VPN issues</li>
+        <li>♻️ Quarterly tune-up available</li>
+      </ul>
+    </section>
 
-  <div class="paypal-button-wrapper">
-    <h2>💸 Pay Now</h2>
-    <p>Securely complete your payment with PayPal:</p>
-    <a href="https://www.paypal.com/ncp/payment/YHPETZS8E98CN" target="_blank">
-      <button>Pay Now with PayPal</button>
-    </a>
-  </div>
+    <section>
+      <h2>Contact Form</h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_pfbC78z5rA-SVT8cptdIQ6w4mwymcws9NoExUeTcGa_8ig/viewform?embedded=true">Loading…</iframe>
+    </section>
 
-  <div class="button-row">
-    <a href="mailto:letsplexit@gmail.com?subject=Plex%20Setup%20Request&body=Hi%20Frank,%0AI'm%20interested%20in%20your%20Plex%20services.%20Please%20let%20me%20know%20what%20you%20need%20from%20me%20to%20get%20started.">📧 Email Me to Schedule</a>
-    <a href="#client-intake">📝 Client Intake Form</a>
-  </div>
+    <section>
+      <h2>Client Intake Form</h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXZdSyQDQZtBrTxAh0EKlf8q54rIHKDwZc8p8vKj7rZc6p3A/viewform?embedded=true">Loading…</iframe>
+    </section>
 
-  <hr>
-
-  <div class="form-section" id="contact-info">
-    <h2>📇 Contact Information</h2>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_pfbC78z5rA-SVT8cptdIQ6w4mwymcws9NoExUeTcGa_8ig/viewform?embedded=true" allowfullscreen>
-      Loading…
-    </iframe>
-  </div>
-
-  <div class="form-section" id="client-intake">
-    <h2>📝 Client Intake Form</h2>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIp1lUcM_ek53n8p0taHhgWnpjdG1DgLXTx6b2tYcAMBP2Yw/viewform?embedded=true" allowfullscreen>
-      Loading…
-    </iframe>
+    <section>
+      <h2>Service Contract</h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7uZKTN9bHbGO-zx2RNPgXcIRY9szzjXNcK1ZYyutbZbkmSA/viewform?embedded=true">Loading…</iframe>
+    </section>
   </div>
 
   <footer>
-    © 2025 Let’s Plex It — Powered by FJLM · Massey Systems
+    © 2025 Let's Plex It — All rights reserved.
   </footer>
-
 </body>
 </html>
