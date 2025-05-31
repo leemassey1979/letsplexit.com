@@ -59,6 +59,23 @@
       border: none;
     }
 
+    .paypal-button {
+      display: inline-block;
+      background-color: #ffc439;
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .paypal-button:hover {
+      background-color: #e0b42b;
+    }
+
     footer {
       background-color: #000;
       color: #888;
@@ -67,7 +84,6 @@
       font-size: 0.9rem;
     }
 
-    /* 🌐 Mobile Responsive Adjustments */
     @media (max-width: 768px) {
       header h1 {
         font-size: 1.5rem;
@@ -91,6 +107,13 @@
 
       iframe {
         height: auto !important;
+      }
+
+      .paypal-button {
+        font-size: 1rem;
+        width: 100%;
+        display: block;
+        text-align: center;
       }
     }
   </style>
@@ -129,6 +152,12 @@
         <li>📞 Remote help for errors & VPN issues</li>
         <li>♻️ Quarterly tune-up available</li>
       </ul>
+    </section>
+
+    <section>
+      <h2>Pay for Your Setup</h2>
+      <p>Use the button below to make a secure payment through PayPal.</p>
+      <a class="paypal-button" href="https://www.paypal.com/ncp/payment/YHPETZS8E98CN" target="_blank" rel="noopener noreferrer">Pay Now with PayPal</a>
     </section>
 
     <section>
