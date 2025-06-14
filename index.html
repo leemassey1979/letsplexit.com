@@ -1,61 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Let's Plex It</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Let's Plex It — Your Media, Your Way</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #1a1a1a;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
       text-align: center;
     }
 
     .logo {
-      max-width: 300px;
-      width: 80%;
-      margin-bottom: 30px;
-      border-radius: 20px;
-      box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+      width: 200px;
+      margin: 40px auto 20px;
+      display: block;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
     }
 
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin: 0;
-      color: #ffffff;
-      text-shadow: 0 0 10px #F00, 0 0 10px #FF0, 0 0 10px #0F0, 0 0 10px #00F;
+      color: #f4f4f4;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      margin: 10px auto 30px;
       color: #ccc;
-      margin-top: 15px;
+      max-width: 700px;
+    }
+
+    .section {
+      background-color: #1e1e1e;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 800px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+
+    .section h2 {
+      color: #ffd700;
+    }
+
+    ul {
+      text-align: left;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      padding: 5px 0;
     }
 
     a {
       color: #4fc3f7;
       text-decoration: none;
-      font-weight: bold;
     }
 
     a:hover {
       text-decoration: underline;
     }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #888;
+    }
   </style>
 </head>
 <body>
+
   <img src="de72169c-f492-4c23-8e9a-d9bbd69480d6.png" alt="FJLM Logo" class="logo">
-  <h1>Let's Plex It</h1>
-  <p>Home Media. Elevated. Simple. Yours.</p>
-  <p><a href="#coming-soon">More coming soon...</a></p>
+
+  <h1>Let's Plex It — Your Media, Your Way</h1>
+  <p>We make Plex setup simple.</p>
+
+  <div class="section">
+    <h2>🎬 Basic Setup – $100–150</h2>
+    <ul>
+      <li>Plex Media Server install (Windows/macOS/Linux/NAS)</li>
+      <li>Folder setup & library organization</li>
+      <li>Remote access configured</li>
+      <li>Security: Plex PIN & basic VPN help</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📅 Contact Us</h2>
+    <p>Let us know how we can help. Fill out the quick form below.</p>
+  </div>
+
+  <div class="section">
+    <h2>📝 New Client Info</h2>
+    <p>New here? Tell us about your setup so we can get started fast.</p>
+    <p><a href="#new-client-form">Go to Form</a></p>
+  </div>
+
+  <div class="section">
+    <h2>📄 Service Agreement</h2>
+    <p>Please fill this out before we start your setup.</p>
+    <p><a href="#service-agreement">Review Agreement</a></p>
+  </div>
+
+  <div class="footer">
+    <p><strong>Note:</strong> We do not offer file downloads, torrents, or automation tools. This service is for Plex installation and organization help only.</p>
+  </div>
+
 </body>
 </html>
