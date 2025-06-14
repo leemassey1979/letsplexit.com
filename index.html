@@ -1,94 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Let's Plex It — Simple Streaming Setup</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Let's Plex It</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
   <style>
     body {
-      background-color: #121212;
-      color: #ffffff;
+      margin: 0;
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #f4a300;
-      color: black;
+      background-color: #1a1a1a;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
       text-align: center;
-      padding: 20px;
     }
-    header h1 {
+
+    .logo {
+      max-width: 300px;
+      width: 80%;
+      margin-bottom: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+      font-size: 3rem;
       margin: 0;
-      font-size: 2rem;
+      color: #ffffff;
+      text-shadow: 0 0 10px #F00, 0 0 10px #FF0, 0 0 10px #0F0, 0 0 10px #00F;
     }
-    .container {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
+
+    p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 15px;
     }
-    h2 {
-      color: #f4a300;
-      margin-top: 2rem;
+
+    a {
+      color: #4fc3f7;
+      text-decoration: none;
+      font-weight: bold;
     }
-    iframe {
-      width: 100%;
-      border: none;
-      margin-top: 1rem;
-    }
-    .note {
-      font-size: 0.9rem;
-      color: #cccccc;
-    }
-    .card {
-      background-color: #1e1e1e;
-      padding: 1.5rem;
-      margin-bottom: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #00000055;
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>Let's Plex It — Your Media, Your Way</h1>
-    <p>We make Plex setup simple.</p>
-  </header>
-
-  <div class="container">
-
-    <div class="card">
-      <h2>🎬 Basic Setup – $100–150</h2>
-      <ul>
-        <li>Plex Media Server install (Windows/macOS/Linux/NAS)</li>
-        <li>Folder setup & library organization</li>
-        <li>Remote access configured</li>
-        <li>Security: Plex PIN & basic VPN help</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>📅 Contact Us</h2>
-      <p>Let us know how we can help. Fill out the quick form below.</p>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6RZrMPs13DGEF2IG1cB3LjC7oO7bcGrLEd7vAkDyb-G6jqg/viewform?embedded=true" height="600">Loading…</iframe>
-    </div>
-
-    <div class="card">
-      <h2>📝 New Client Info</h2>
-      <p>New here? Tell us about your setup so we can get started fast.</p>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_pfbC78z5rA-SVT8cptdIQ6w4mwymcws9NoExUeTcGa_8ig/viewform?embedded=true" height="950">Loading…</iframe>
-    </div>
-
-    <div class="card">
-      <h2>📄 Service Agreement</h2>
-      <p>Please fill this out before we start your setup.</p>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfkEGX-pAyNnNR2lBfrt6PaNjIoKHH3AHTVhxFfwCBBOHMc7Q/viewform?embedded=true" height="850">Loading…</iframe>
-    </div>
-
-    <p class="note">Note: We do not offer file downloads, torrents, or automation tools. This service is for Plex installation and organization help only.</p>
-
-  </div>
-
+  <img src="de72169c-f492-4c23-8e9a-d9bbd69480d6.png" alt="FJLM Logo" class="logo">
+  <h1>Let's Plex It</h1>
+  <p>Home Media. Elevated. Simple. Yours.</p>
+  <p><a href="#coming-soon">More coming soon...</a></p>
 </body>
 </html>
